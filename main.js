@@ -86,3 +86,66 @@
 // const passwordInput = prompt("Parolni kiriting:");
 
 // tekshirish(loginInput, passwordInput);
+
+// 1.2 normativ
+// 1 chi masala
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+// let res = arr.filter((n) => n % 2 === 0)
+// console.log(res);
+
+// 2 chi masala 
+
+// function yigindiHisobla(n) {
+//   let sum = 0
+//   for (let i = 1; i <= n; i++) {
+//     sum += i
+//   }
+//   return sum
+// }
+
+// const n = n2(prompt("n sonini kiriting:"))
+// const sum2 = yigindiHisobla(n)
+// console.log("1 dan " + n + " gacha bo‘lgan sonlar yig‘indisi: " + natija);
+
+// 3 chi masala
+
+// function musbatYigindi(array) {
+//   let sum = 0
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i] > 0) {
+//       sum += array[i]
+//     }
+//   }
+//   return sum;
+// }
+
+// let sonlar = [7, 5, 2, 6, 9, 4, 12, 3, 11, 18]
+// let natija = musbatYigindi(sonlar)
+
+// console.log("Musbat sonlar yig'indisi:", natija);
+
+// 4 chi masala
+
+// function uchVaBeshKarrali() {
+//   let result = []
+
+//   for (let i = 1; i <= 100; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//       result.push(i)
+//     }
+//   }
+
+//   console.log(result.join(" "));
+// }
+
+// uchVaBeshKarrali()
+
+// 5 chi masala
+
+// let arr = [2, -8, 2, 1, 5, 4, -15, 9, 13]
+
+// let engKatta = Math.max(...arr)
+// let engKichik = Math.min(...arr)
+
+// console.log(`big ${engKatta}, small ${engKichik}`);
