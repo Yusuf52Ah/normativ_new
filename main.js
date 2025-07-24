@@ -188,3 +188,48 @@
 // let arr2 = arr.flat(2)
 // let res = arr2.filter((n) => n % 2 === 1)
 // console.log(res);
+
+// 1.4 new normativ
+
+// 1 chi masala
+
+// let arr = ["Jasmina", "Muhammaddiyor", "Bek", "Yusufxon", "Asad", "John"]
+// let res = arr.filter((n) => 5 < n.length)
+// console.log(res);
+
+// 2 chi masala
+
+// let arr = [1, 2, 3, 4, 5]
+// let max = Math.max(...arr)
+// let min = Math.min(...arr)
+// let res = max - min
+// console.log(res);
+
+// 3 chi masala
+
+// let arr = ["seVinCh", "IbrohiM", "miRKomiL", "JURABEK", "abdulaziz"];
+
+// let res = arr.map(name => {
+//   let res2 = name.toLowerCase();
+//   return res2.charAt(0).toUpperCase() + res2.slice(1);
+// });
+
+// res.sort();
+
+// console.log(res);
+
+// 4 chi masala
+
+// let arr = [16, 20, 8, 2, 12, 27, 9, 13];
+// let last = arr[arr.length - 1];
+
+// let res = arr.find(x => x < last) || 0;
+
+// console.log(res);
+
+// 5 chi masala
+
+// let arr = [1, 2, 2, 3, 4, 4, 5];
+// let res = arr.filter(n => arr.indexOf(n) === arr.lastIndexOf(n));
+
+// console.log(res);
