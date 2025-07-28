@@ -233,3 +233,56 @@
 // let res = arr.filter(n => arr.indexOf(n) === arr.lastIndexOf(n));
 
 // console.log(res);
+
+// 1.5 new normativ
+
+// 1 chi masala
+
+// let obj = {}
+// obj.name="Kimdur"
+// obj.age="16"
+// obj.country="earth"
+// console.log(obj);
+
+// 2 chi masala
+
+// let obj = { valyuta: "dollar", miqdor: 50 }
+// console.log(obj);
+
+// 3 chi masala
+
+// let obj = { Anvar: 19, Salim: 21, Jasur: 13 };
+
+// let arr = Object.entries(obj).sort((a, b) => b[1] - a[1]);
+
+// arr.forEach(([ism, yosh]) => {
+//   console.log(ism + ": " + yosh);
+// });
+
+// 4 chi masala
+
+// let obj = { name: "John", age: 22, city: "Tashkent" };
+
+// obj.age = 30;
+// obj.city = "New York";
+
+// let res = [
+//   ['name', obj.name],
+//   ['age', obj.age],
+//   ['city', obj.city]
+// ];
+
+// console.log(res);
+
+// 5 chi masala
+
+// let obj = { Salim: 60, Ali: 50, Kimsan: 90 }
+
+// let res = {};
+// for (let key in obj) {
+//   if (obj[key] >= 60) {
+//     res[key] = obj[key];
+//   }
+// }
+
+// console.log(res);
