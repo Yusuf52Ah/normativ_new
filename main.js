@@ -286,3 +286,67 @@
 // }
 
 // console.log(res);
+
+// 1.6 new normativ
+
+// 1 chi masala
+
+// let obj = {
+//     name: "Ali",
+//     age: 19
+// }
+
+// console.log(Object.keys(obj));
+
+// 2 chi masala
+
+// let obj = {
+//     a: 15,
+//     b: 10
+// }
+
+// let res = obj.a * obj.b
+// console.log(res);
+
+// 3 chi masala
+
+// let obj = { soliq: 20, kamunal: 12, prava: 980, havo: 3 };
+
+// function qanchaKoTarildi(obj, foiz) {
+//   let result = {};
+//   for (let key in obj) {
+//     let added = obj[key] * foiz / 100;
+//     result[key] = added;
+//   }
+//   return result;
+// }
+
+// let natija = qanchaKoTarildi(obj, 15);
+// console.log(natija);
+
+// 4 chi masala
+
+// let obj = {
+//   Salim: 50,
+//   Vali: 87,
+//   Ali: 12,
+//   deleteUser: function(name) {
+//     delete this[name];
+//   }
+// };
+
+// obj.deleteUser("Vali");
+
+// console.log(obj);
+
+// 5 chi masala
+
+// let obj = { olam: 7, mandarin: 4, banan: 6, apelsin: 1 };
+
+// for (let key in obj) {
+//   if (obj[key] % 2 !== 0) {
+//     delete obj[key];
+//   }
+// }
+
+// console.log(obj);
