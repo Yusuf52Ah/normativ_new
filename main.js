@@ -2,6 +2,7 @@
 // let num = +prompt()
 // if (num % 2 === 0) {
 
+
 //     console.log('juft');
 // } 
 // else {
@@ -350,3 +351,65 @@
 // }
 
 // console.log(obj);
+
+// 1.7 new normativ
+
+// 1 chi masala
+
+// let obj = {
+//     salim: 25,
+//     ali: 17,
+//     malika: 21
+// }
+
+// for (let key in obj) {
+//   console.log(`${key} = ${obj[key] + 2}`);
+// }
+
+
+// 2 chi masala
+
+// let users = [
+//   { name: "Ali", age: 20 },
+//   { name: "Vali", age: 25 },
+//   { name: "Sami", age: 22 }
+// ];
+
+// users.forEach(user => {
+//   console.log(`${user.name} : ${user.age}`);
+// });
+
+// 3 chi masala
+
+// let obj = { a: 10, b: "hello", c: 5, d: true };
+
+// for (let key in obj) {
+//   if (typeof obj[key] === "number") {
+//     console.log(`${key}=${obj[key]}`);
+//   }
+// }
+
+// 4 chi masala
+
+// const person = {name: "Lola", age: null, job: "Teacher", city: null};
+// const res = {};
+
+// for (const key in person) {
+//   if (person[key] !== null) {
+//     res[key] = person[key];
+//   }
+// }
+
+// console.log(res);
+
+// 5 chi masala
+
+// let users = [
+//   { name: "Ali", age: 17 },
+//   { name: "Vali", age: 19 },
+//   { name: "Sami", age: 21 }
+// ];
+
+// let res = users.filter((n) => n.age > 18);
+
+// console.log(res);
