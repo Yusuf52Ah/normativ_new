@@ -532,3 +532,43 @@
 // }
 
 // validateUser(user);
+
+// 1.9 new normativ
+
+// ForEach
+// function customForEach(arr, callback) {
+//     for (let i = 0; i < arr.length; i++) {
+//         callback(arr[i], i, arr);
+//     }
+// }
+
+// Find
+// function customFind(arr, callback) {
+//     for (let i = 0; i < arr.length; i++) {
+//         if (callback(arr[i], i, arr)) {
+//             return arr[i];
+//         }
+//     }
+//     return undefined; 
+// }
+
+// Some
+// function customSome(arr, callback) {
+//     for (let i = 0; i < arr.length; i++) {
+//         if (callback(arr[i], i, arr)) {
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+
+// Every
+
+// function customEvery(arr, callback) {
+//     for (let i = 0; i < arr.length; i++) {
+//         if (!callback(arr[i], i, arr)) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
