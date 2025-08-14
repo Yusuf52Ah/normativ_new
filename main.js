@@ -572,3 +572,68 @@
 //     }
 //     return true;
 // }
+
+// 1.10 new normativ
+
+// 1 chi masala
+
+// async function getData() {
+//     try {
+//         const res = await fetch("https://api.escuelajs.co/api/v1/products")
+//         const product = await res.json()
+
+//         console.log(product);
+        
+//         product.forEach(products => {
+//             console.log(products.title);
+            
+//         });
+//     } catch (error) {
+//         console.error(error.message);
+        
+//     }
+// }
+
+// getData()
+
+// 2 chi masala
+
+// async function getName() {
+//     try {
+//         const res = await fetch("https://api.escuelajs.co/api/v1/users")
+//         const users = await res.json()
+
+//         console.log(users);
+        
+//         users.forEach(user => {
+//             console.log(user.name);
+            
+//         });
+//     } catch (error) {
+//         console.error(error.message);
+        
+//     }
+// }
+
+// getName()
+
+// 3 chi masala
+
+// async function getName() {
+//     try {
+//         const res = await fetch("https://api.escuelajs.co/api/v1/categories")
+//         const categories = await res.json()
+
+//         console.log(categories);
+        
+//         categories.forEach(categories => {
+//             console.log(categories.name.cat);
+            
+//         });
+//     } catch (error) {
+//         console.error(error.message);
+        
+//     }
+// }
+
+// getName()
