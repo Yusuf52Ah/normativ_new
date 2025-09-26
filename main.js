@@ -180,7 +180,7 @@
 // let arr = [6, 1, 3, 5, 6, 2, 0, 4]
 // let res = arr.filter((n) => n > 2)
 // console.log(res.map((n) => n * n));
-    
+
 // 5 chi masala
 
 // let arr = [1, [2, 3], [4, [5, 6, 7]]]
@@ -498,21 +498,21 @@
 // function validateUser(user) {
 //   const errors = [];
 
-  
+
 //   if (typeof user.name !== "string") {
 //     errors.push("Name string bo'lishi kerak.");
 //   } else if (user.name.length < 3) {
 //     errors.push("Name kamida 3 ta harfdan iborat bo'lishi kerak.");
 //   }
 
-  
+
 //   if (typeof user.age !== "number") {
 //     errors.push("Age number bo'lishi kerak.");
 //   } else if (user.age < 7) {
 //     errors.push("Age 7 yoki undan katta bolishi kerak.");
 //   }
 
- 
+
 //   if (typeof user.email !== "string") {
 //     errors.push("Email string bo'lishi kerak.");
 //   } else if (!user.email.includes("@") || !user.email.includes(".")) {
@@ -583,14 +583,14 @@
 //         const product = await res.json()
 
 //         console.log(product);
-        
+
 //         product.forEach(products => {
 //             console.log(products.title);
-            
+
 //         });
 //     } catch (error) {
 //         console.error(error.message);
-        
+
 //     }
 // }
 
@@ -604,14 +604,14 @@
 //         const users = await res.json()
 
 //         console.log(users);
-        
+
 //         users.forEach(user => {
 //             console.log(user.name);
-            
+
 //         });
 //     } catch (error) {
 //         console.error(error.message);
-        
+
 //     }
 // }
 
@@ -625,15 +625,107 @@
 //         const categories = await res.json()
 
 //         console.log(categories);
-        
+
 //         categories.forEach(categories => {
 //             console.log(categories.name.cat);
-            
+
 //         });
 //     } catch (error) {
 //         console.error(error.message);
-        
+
 //     }
 // }
 
 // getName()
+
+// 1.11 new normativ
+
+// 1 chi masala
+
+// const div = document.querySelector('.div')
+// const btn = document.querySelector('.btn')
+// btn.addEventListener('click', () => {
+//     div.style.cssText = `
+//     background-color: green;
+//     `
+// })
+
+// 1.2 chi masala
+
+// const text = document.getElementById("pharag");
+
+// text.addEventListener("mouseover", () => {
+//   text.style.color = "red"; 
+// });
+
+// text.addEventListener("mouseout", () => {
+//   text.style.color = "black";
+// });
+
+// 1.3 chi masala
+
+// const div = document.querySelector(".div")
+// const btn = document.querySelector(".btn")
+
+// btn.addEventListener('click', (e) => {
+//   div.classList.toggle('div')
+// })
+
+// 1.4 chi masala
+
+// const btn = document.querySelector(".btn")
+// const img = document.querySelector('#img')
+
+// btn.addEventListener('click', () => {
+//   if (img.style.display === "none") {
+//     img.style.display = "block";
+//   } else {
+//     img.style.display = "none";
+//   }
+// });
+
+// 5 chi masala
+
+// const input = document.querySelector('#input')
+
+// input.addEventListener("input", () => {
+//   if (input.value.length < 5) {
+//     input.style.border = "2px solid red";
+//   } else {
+//     input.style.border = "2px solid green";
+//   }
+// });
+
+// 6 chi masala
+
+// const red = document.querySelector('.q1')
+// const green = document.querySelector('.q2')
+// const blue = document.querySelector('.q3')
+// const div = document.querySelector('.div')
+
+// red.addEventListener("click", () => {
+//   div.style.border = "1px solid red";
+// });
+
+// green.addEventListener("click", () => {
+//   div.style.border = "1px solid green";
+// });
+
+// blue.addEventListener("click", () => {
+//   div.style.border = "1px solid blue";
+// });
+
+// 7 chi masala
+
+// const dark = document.querySelector('.dark')
+// const body = document.querySelector('body')
+
+// dark.addEventListener('click', () => {
+//     if (body.style.background === "black") {
+//         body.style.background = "white";
+//         body.style.color = "black";
+//     } else {
+//         body.style.background = "black";
+//         body.style.color = "white";
+//     }
+// })
