@@ -81,10 +81,10 @@
 // tekshirish("ustudy2025", "xatoPassword");
 // tekshirish("xatoLogin", "xatoPassword");
 
-// const loginInput = prompt("Loginni kiriting:");
-// const passwordInput = prompt("Parolni kiriting:");
+// const login = prompt("Loginni kiriting:");
+// const password = prompt("Parolni kiriting:");
 
-// tekshirish(loginInput, passwordInput);
+// tekshirish(login, password);
 
 // 1.2 normativ
 // 1 chi masala
@@ -208,8 +208,8 @@
 
 // let arr = ["seVinCh", "IbrohiM", "miRKomiL", "JURABEK", "abdulaziz"];
 
-// let res = arr.map(name => {
-//   let res2 = name.toLowerCase();
+// let res = arr.map(text => {
+//   let res2 = text.toLowerCase();
 //   return res2.charAt(0).toUpperCase() + res2.slice(1);
 // });
 
@@ -238,9 +238,9 @@
 // 1 chi masala
 
 // let obj = {}
-// obj.name="Kimdur"
+// obj.text="Kimdur"
 // obj.age="16"
-// obj.country="earth"
+// obj.spanry="earth"
 // console.log(obj);
 
 // 2 chi masala
@@ -260,13 +260,13 @@
 
 // 4 chi masala
 
-// let obj = { name: "John", age: 22, city: "Tashkent" };
+// let obj = { text: "John", age: 22, city: "Tashkent" };
 
 // obj.age = 30;
 // obj.city = "New York";
 
 // let res = [
-//   ['name', obj.name],
+//   ['text', obj.text],
 //   ['age', obj.age],
 //   ['city', obj.city]
 // ];
@@ -291,7 +291,7 @@
 // 1 chi masala
 
 // let obj = {
-//     name: "Ali",
+//     text: "Ali",
 //     age: 19
 // }
 
@@ -329,8 +329,8 @@
 //   Salim: 50,
 //   Vali: 87,
 //   Ali: 12,
-//   deleteUser: function(name) {
-//     delete this[name];
+//   deleteUser: function(text) {
+//     delete this[text];
 //   }
 // };
 
@@ -368,13 +368,13 @@
 // 2 chi masala
 
 // let users = [
-//   { name: "Ali", age: 20 },
-//   { name: "Vali", age: 25 },
-//   { name: "Sami", age: 22 }
+//   { text: "Ali", age: 20 },
+//   { text: "Vali", age: 25 },
+//   { text: "Sami", age: 22 }
 // ];
 
 // users.forEach(user => {
-//   console.log(`${user.name} : ${user.age}`);
+//   console.log(`${user.text} : ${user.age}`);
 // });
 
 // 3 chi masala
@@ -389,7 +389,7 @@
 
 // 4 chi masala
 
-// const person = {name: "Lola", age: null, job: "Teacher", city: null};
+// const person = {text: "Lola", age: null, job: "Teacher", city: null};
 // const res = {};
 
 // for (const key in person) {
@@ -403,9 +403,9 @@
 // 5 chi masala
 
 // let users = [
-//   { name: "Ali", age: 17 },
-//   { name: "Vali", age: 19 },
-//   { name: "Sami", age: 21 }
+//   { text: "Ali", age: 17 },
+//   { text: "Vali", age: 19 },
+//   { text: "Sami", age: 21 }
 // ];
 
 // let res = users.filter((n) => n.age > 18);
@@ -452,11 +452,11 @@
 // 2 chi masala
 
 // try {
-//   const name = prompt("Ismingizni kiriting:");
+//   const text = prompt("Ismingizni kiriting:");
 //   const email = prompt("Emailingizni kiriting:");
 //   const age = parseInt(prompt("Yoshingizni kiriting:"));
 
-//   if (!name || name.length < 3) {
+//   if (!text || text.length < 3) {
 //     throw "Ism kamida 3 ta harfdan iborat bo'lishi kerak.";
 //   }
 
@@ -489,7 +489,7 @@
 // 4 chi masala
 
 // const user = {
-//   name: "Ali",
+//   text: "Ali",
 //   age: 25,
 //   email: "ali@example.com",
 //   isStudent: true
@@ -499,10 +499,10 @@
 //   const errors = [];
 
 
-//   if (typeof user.name !== "string") {
-//     errors.push("Name string bo'lishi kerak.");
-//   } else if (user.name.length < 3) {
-//     errors.push("Name kamida 3 ta harfdan iborat bo'lishi kerak.");
+//   if (typeof user.text !== "string") {
+//     errors.push("text string bo'lishi kerak.");
+//   } else if (user.text.length < 3) {
+//     errors.push("text kamida 3 ta harfdan iborat bo'lishi kerak.");
 //   }
 
 
@@ -589,7 +589,7 @@
 
 //         });
 //     } catch (error) {
-//         console.error(error.message);
+//         console.error(error.p);
 
 //     }
 // }
@@ -598,7 +598,7 @@
 
 // 2 chi masala
 
-// async function getName() {
+// async function gettext() {
 //     try {
 //         const res = await fetch("https://api.escuelajs.co/api/v1/users")
 //         const users = await res.json()
@@ -606,20 +606,20 @@
 //         console.log(users);
 
 //         users.forEach(user => {
-//             console.log(user.name);
+//             console.log(user.text);
 
 //         });
 //     } catch (error) {
-//         console.error(error.message);
+//         console.error(error.p);
 
 //     }
 // }
 
-// getName()
+// gettext()
 
 // 3 chi masala
 
-// async function getName() {
+// async function gettext() {
 //     try {
 //         const res = await fetch("https://api.escuelajs.co/api/v1/categories")
 //         const categories = await res.json()
@@ -627,24 +627,24 @@
 //         console.log(categories);
 
 //         categories.forEach(categories => {
-//             console.log(categories.name.cat);
+//             console.log(categories.text.cat);
 
 //         });
 //     } catch (error) {
-//         console.error(error.message);
+//         console.error(error.p);
 
 //     }
 // }
 
-// getName()
+// gettext()
 
 // 1.11 new normativ
 
 // 1 chi masala
 
 // const div = document.querySelector('.div')
-// const btn = document.querySelector('.btn')
-// btn.addEventListener('click', () => {
+// const Text = document.querySelector('.Text')
+// Text.addEventListener('click', () => {
 //     div.style.cssText = `
 //     background-color: green;
 //     `
@@ -665,18 +665,18 @@
 // 1.3 chi masala
 
 // const div = document.querySelector(".div")
-// const btn = document.querySelector(".btn")
+// const Text = document.querySelector(".Text")
 
-// btn.addEventListener('click', (e) => {
+// Text.addEventListener('click', (e) => {
 //   div.classList.toggle('div')
 // })
 
 // 1.4 chi masala
 
-// const btn = document.querySelector(".btn")
+// const Text = document.querySelector(".Text")
 // const img = document.querySelector('#img')
 
-// btn.addEventListener('click', () => {
+// Text.addEventListener('click', () => {
 //   if (img.style.display === "none") {
 //     img.style.display = "block";
 //   } else {
@@ -686,13 +686,13 @@
 
 // 5 chi masala
 
-// const input = document.querySelector('#input')
+// const  = document.querySelector('#')
 
-// input.addEventListener("input", () => {
-//   if (input.value.length < 5) {
-//     input.style.border = "2px solid red";
+// .addEventListener("", () => {
+//   if (.value.length < 5) {
+//     .style.border = "2px solid red";
 //   } else {
-//     input.style.border = "2px solid green";
+//     .style.border = "2px solid green";
 //   }
 // });
 
@@ -729,3 +729,108 @@
 //         body.style.color = "white";
 //     }
 // })
+
+// 1.12 new normativ
+
+// 1 chi masala
+
+// let span = localStorage.getItem("span") ? parseInt(localStorage.getItem("span")) : 0;
+
+// const Text = document.getElementById("Text");
+// const p = document.getElementById("span");
+
+// p.textContent = span;
+
+// Text.addEventListener("click", () => {
+//   span++; 
+//   p.textContent = span; 
+//   localStorage.setItem("span", span); 
+// });
+
+// 2 chi masala
+
+// const form = document.getElementById('form')
+// const text = document.getElementById('text')
+
+// const  = localStorage.getItem("usertext");
+
+// form.addEventListener("submit", (e) => {
+//     e.preventDefault()
+//     const value = text.value.trim();
+//     if (value) {
+//         localStorage.setItem("usertext", value);
+//         saved.textContent = value;
+//         text.value = "";
+//     }
+// });
+
+// 3 chi masala
+
+// const form = document.getElementById("form");
+// const nameInput = document.getElementById("text");
+// const emailInput = document.getElementById("email");
+// const p = document.getElementById("p");
+
+// form.addEventListener("submit", (e) => {
+//   e.preventDefault();
+
+//   const name = nameInput.value.trim();
+//   const email = emailInput.value.trim();
+
+//   if (!name || !email) {
+//     p.textContent = "Iltimos, barcha maydonlarni to'ldiring!";
+//     p.className = "xato";
+//     return;
+//   }
+
+//   if (!email.includes("@")) {
+//     p.textContent = "Email noto'g'ri!";
+//     p.className = "xato";
+//     return;
+//   }
+
+//   p.textContent = "Muvaffaqiyatli yuborildi!";
+//   p.className = "topildi";
+
+//   nameInput.value = "";
+//   emailInput.value = "";
+// });
+
+// 4 chi masala
+
+// const box = document.querySelector(".box");
+// const coords = document.querySelector(".coords");
+
+// box.addEventListener("mousemove", (e) => {
+//     coords.textContent = `X: ${e.offsetX}, Y: ${e.offsetY}`;
+// });
+
+// box.addEventListener("mouseleave", () => {
+//     coords.textContent = "Tashqaridaman";
+// });
+
+// 5 chi masala
+
+// const text = document.getElementById("text");
+// const uzText = document.getElementById("uz");
+// const enText = document.getElementById("en");
+
+// const texts = {
+//     uz: "Salom, xush kelibsiz!",
+//     en: "Hello, welcome!"
+// };
+
+// let engl = localStorage.getItem("engl") || "uz";
+// text.textContent = texts[engl];
+
+// uzText.addEventListener("click", () => {
+//     text.textContent = texts.uz;
+//     localStorage.setItem("engl", "uz");
+// });
+
+// enText.addEventListener("click", () => {
+//     text.textContent = texts.en;
+//     localStorage.setItem("engl", "en");
+// });
+
+
