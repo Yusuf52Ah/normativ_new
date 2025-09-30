@@ -208,8 +208,8 @@
 
 // let arr = ["seVinCh", "IbrohiM", "miRKomiL", "JURABEK", "abdulaziz"];
 
-// let res = arr.map(text => {
-//   let res2 = text.toLowerCase();
+// let res = arr.map(btn3 => {
+//   let res2 = btn3.toLowerCase();
 //   return res2.charAt(0).toUpperCase() + res2.slice(1);
 // });
 
@@ -238,7 +238,7 @@
 // 1 chi masala
 
 // let obj = {}
-// obj.text="Kimdur"
+// obj.btn3="Kimdur"
 // obj.age="16"
 // obj.spanry="earth"
 // console.log(obj);
@@ -260,13 +260,13 @@
 
 // 4 chi masala
 
-// let obj = { text: "John", age: 22, city: "Tashkent" };
+// let obj = { btn3: "John", age: 22, city: "Tashkent" };
 
 // obj.age = 30;
 // obj.city = "New York";
 
 // let res = [
-//   ['text', obj.text],
+//   ['btn3', obj.btn3],
 //   ['age', obj.age],
 //   ['city', obj.city]
 // ];
@@ -291,7 +291,7 @@
 // 1 chi masala
 
 // let obj = {
-//     text: "Ali",
+//     btn3: "Ali",
 //     age: 19
 // }
 
@@ -329,8 +329,8 @@
 //   Salim: 50,
 //   Vali: 87,
 //   Ali: 12,
-//   deleteUser: function(text) {
-//     delete this[text];
+//   deleteUser: function(btn3) {
+//     delete this[btn3];
 //   }
 // };
 
@@ -368,13 +368,13 @@
 // 2 chi masala
 
 // let users = [
-//   { text: "Ali", age: 20 },
-//   { text: "Vali", age: 25 },
-//   { text: "Sami", age: 22 }
+//   { btn3: "Ali", age: 20 },
+//   { btn3: "Vali", age: 25 },
+//   { btn3: "Sami", age: 22 }
 // ];
 
 // users.forEach(user => {
-//   console.log(`${user.text} : ${user.age}`);
+//   console.log(`${user.btn3} : ${user.age}`);
 // });
 
 // 3 chi masala
@@ -389,7 +389,7 @@
 
 // 4 chi masala
 
-// const person = {text: "Lola", age: null, job: "Teacher", city: null};
+// const person = {btn3: "Lola", age: null, job: "Teacher", city: null};
 // const res = {};
 
 // for (const key in person) {
@@ -403,9 +403,9 @@
 // 5 chi masala
 
 // let users = [
-//   { text: "Ali", age: 17 },
-//   { text: "Vali", age: 19 },
-//   { text: "Sami", age: 21 }
+//   { btn3: "Ali", age: 17 },
+//   { btn3: "Vali", age: 19 },
+//   { btn3: "Sami", age: 21 }
 // ];
 
 // let res = users.filter((n) => n.age > 18);
@@ -452,11 +452,11 @@
 // 2 chi masala
 
 // try {
-//   const text = prompt("Ismingizni kiriting:");
+//   const btn3 = prompt("Ismingizni kiriting:");
 //   const email = prompt("Emailingizni kiriting:");
 //   const age = parseInt(prompt("Yoshingizni kiriting:"));
 
-//   if (!text || text.length < 3) {
+//   if (!btn3 || btn3.length < 3) {
 //     throw "Ism kamida 3 ta harfdan iborat bo'lishi kerak.";
 //   }
 
@@ -489,7 +489,7 @@
 // 4 chi masala
 
 // const user = {
-//   text: "Ali",
+//   btn3: "Ali",
 //   age: 25,
 //   email: "ali@example.com",
 //   isStudent: true
@@ -499,10 +499,10 @@
 //   const errors = [];
 
 
-//   if (typeof user.text !== "string") {
-//     errors.push("text string bo'lishi kerak.");
-//   } else if (user.text.length < 3) {
-//     errors.push("text kamida 3 ta harfdan iborat bo'lishi kerak.");
+//   if (typeof user.btn3 !== "string") {
+//     errors.push("btn3 string bo'lishi kerak.");
+//   } else if (user.btn3.length < 3) {
+//     errors.push("btn3 kamida 3 ta harfdan iborat bo'lishi kerak.");
 //   }
 
 
@@ -598,7 +598,7 @@
 
 // 2 chi masala
 
-// async function gettext() {
+// async function getbtn3() {
 //     try {
 //         const res = await fetch("https://api.escuelajs.co/api/v1/users")
 //         const users = await res.json()
@@ -606,7 +606,7 @@
 //         console.log(users);
 
 //         users.forEach(user => {
-//             console.log(user.text);
+//             console.log(user.btn3);
 
 //         });
 //     } catch (error) {
@@ -615,11 +615,11 @@
 //     }
 // }
 
-// gettext()
+// getbtn3()
 
 // 3 chi masala
 
-// async function gettext() {
+// async function getbtn3() {
 //     try {
 //         const res = await fetch("https://api.escuelajs.co/api/v1/categories")
 //         const categories = await res.json()
@@ -627,7 +627,7 @@
 //         console.log(categories);
 
 //         categories.forEach(categories => {
-//             console.log(categories.text.cat);
+//             console.log(categories.btn3.cat);
 
 //         });
 //     } catch (error) {
@@ -636,99 +636,99 @@
 //     }
 // }
 
-// gettext()
+// getbtn3()
 
 // 1.11 new normativ
 
 // 1 chi masala
 
-// const div = document.querySelector('.div')
-// const Text = document.querySelector('.Text')
-// Text.addEventListener('click', () => {
-//     div.style.cssText = `
-//     background-color: green;
-//     `
-// })
+const div1 = document.querySelector('.div1')
+const btn1 = document.querySelector('.btn1')
+btn1.addEventListener('click', () => {
+    div1.style.cssText= `
+    background-color: green;
+    `
+})
 
 // 1.2 chi masala
 
-// const text = document.getElementById("pharag");
+const btn31 = document.getElementById("pharag");
 
-// text.addEventListener("mouseover", () => {
-//   text.style.color = "red"; 
-// });
+btn31.addEventListener("mouseover", () => {
+  btn31.style.color = "red"; 
+});
 
-// text.addEventListener("mouseout", () => {
-//   text.style.color = "black";
-// });
+btn31.addEventListener("mouseout", () => {
+  btn31.style.color = "black";
+});
 
 // 1.3 chi masala
 
-// const div = document.querySelector(".div")
-// const Text = document.querySelector(".Text")
+const div2 = document.querySelector(".div2")
+const btn2 = document.querySelector(".btn2")
 
-// Text.addEventListener('click', (e) => {
-//   div.classList.toggle('div')
-// })
+btn2.addEventListener('click', (e) => {
+  div2.classList.toggle('div2')
+})
 
 // 1.4 chi masala
 
-// const Text = document.querySelector(".Text")
-// const img = document.querySelector('#img')
+const btn3 = document.querySelector(".btn3")
+const img = document.querySelector('#img')
 
-// Text.addEventListener('click', () => {
-//   if (img.style.display === "none") {
-//     img.style.display = "block";
-//   } else {
-//     img.style.display = "none";
-//   }
-// });
+btn3.addEventListener('click', () => {
+  if (img.style.display === "none") {
+    img.style.display = "block";
+  } else {
+    img.style.display = "none";
+  }
+});
 
 // 5 chi masala
 
-// const  = document.querySelector('#')
+const input = document.querySelector('#input')
 
-// .addEventListener("", () => {
-//   if (.value.length < 5) {
-//     .style.border = "2px solid red";
-//   } else {
-//     .style.border = "2px solid green";
-//   }
-// });
+input.addEventListener("input", () => {
+  if (input.value.length < 5) {
+    input.style.border = "2px solid red";
+  } else {
+    input.style.border = "2px solid green";
+  }
+});
 
 // 6 chi masala
 
-// const red = document.querySelector('.q1')
-// const green = document.querySelector('.q2')
-// const blue = document.querySelector('.q3')
-// const div = document.querySelector('.div')
+const red = document.querySelector('.q1')
+const green = document.querySelector('.q2')
+const blue = document.querySelector('.q3')
+const div3 = document.querySelector('.div3')
 
-// red.addEventListener("click", () => {
-//   div.style.border = "1px solid red";
-// });
+red.addEventListener("click", () => {
+  div3.style.border = "1px solid red";
+});
 
-// green.addEventListener("click", () => {
-//   div.style.border = "1px solid green";
-// });
+green.addEventListener("click", () => {
+  div3.style.border = "1px solid green";
+});
 
-// blue.addEventListener("click", () => {
-//   div.style.border = "1px solid blue";
-// });
+blue.addEventListener("click", () => {
+  div3.style.border = "1px solid blue";
+});
 
 // 7 chi masala
 
-// const dark = document.querySelector('.dark')
-// const body = document.querySelector('body')
+const dark = document.querySelector('.dark')
+const body = document.querySelector('body')
 
-// dark.addEventListener('click', () => {
-//     if (body.style.background === "black") {
-//         body.style.background = "white";
-//         body.style.color = "black";
-//     } else {
-//         body.style.background = "black";
-//         body.style.color = "white";
-//     }
-// })
+dark.addEventListener('click', () => {
+    if (body.style.background === "black") {
+        body.style.background = "white";
+        body.style.color = "black";
+    } else {
+        body.style.background = "black";
+        body.style.color = "white";
+    }
+})
 
 // 1.12 new normativ
 
@@ -736,38 +736,38 @@
 
 // let span = localStorage.getItem("span") ? parseInt(localStorage.getItem("span")) : 0;
 
-// const Text = document.getElementById("Text");
+// const btn3 = document.getElementById("btn3");
 // const p = document.getElementById("span");
 
-// p.textContent = span;
+// p.btn3Content = span;
 
-// Text.addEventListener("click", () => {
+// btn3.addEventListener("click", () => {
 //   span++; 
-//   p.textContent = span; 
+//   p.btn3Content = span; 
 //   localStorage.setItem("span", span); 
 // });
 
 // 2 chi masala
 
 // const form = document.getElementById('form')
-// const text = document.getElementById('text')
+// const btn3 = document.getElementById('btn3')
 
-// const  = localStorage.getItem("usertext");
+// const  = localStorage.getItem("userbtn3");
 
 // form.addEventListener("submit", (e) => {
 //     e.preventDefault()
-//     const value = text.value.trim();
+//     const value = btn3.value.trim();
 //     if (value) {
-//         localStorage.setItem("usertext", value);
-//         saved.textContent = value;
-//         text.value = "";
+//         localStorage.setItem("userbtn3", value);
+//         saved.btn3Content = value;
+//         btn3.value = "";
 //     }
 // });
 
 // 3 chi masala
 
 // const form = document.getElementById("form");
-// const nameInput = document.getElementById("text");
+// const nameInput = document.getElementById("btn3");
 // const emailInput = document.getElementById("email");
 // const p = document.getElementById("p");
 
@@ -778,18 +778,18 @@
 //   const email = emailInput.value.trim();
 
 //   if (!name || !email) {
-//     p.textContent = "Iltimos, barcha maydonlarni to'ldiring!";
+//     p.btn3Content = "Iltimos, barcha maydonlarni to'ldiring!";
 //     p.className = "xato";
 //     return;
 //   }
 
 //   if (!email.includes("@")) {
-//     p.textContent = "Email noto'g'ri!";
+//     p.btn3Content = "Email noto'g'ri!";
 //     p.className = "xato";
 //     return;
 //   }
 
-//   p.textContent = "Muvaffaqiyatli yuborildi!";
+//   p.btn3Content = "Muvaffaqiyatli yuborildi!";
 //   p.className = "topildi";
 
 //   nameInput.value = "";
@@ -802,34 +802,34 @@
 // const coords = document.querySelector(".coords");
 
 // box.addEventListener("mousemove", (e) => {
-//     coords.textContent = `X: ${e.offsetX}, Y: ${e.offsetY}`;
+//     coords.btn3Content = `X: ${e.offsetX}, Y: ${e.offsetY}`;
 // });
 
 // box.addEventListener("mouseleave", () => {
-//     coords.textContent = "Tashqaridaman";
+//     coords.btn3Content = "Tashqaridaman";
 // });
 
 // 5 chi masala
 
-// const text = document.getElementById("text");
-// const uzText = document.getElementById("uz");
-// const enText = document.getElementById("en");
+// const btn3 = document.getElementById("btn3");
+// const uzbtn3 = document.getElementById("uz");
+// const enbtn3 = document.getElementById("en");
 
-// const texts = {
+// const btn3s = {
 //     uz: "Salom, xush kelibsiz!",
 //     en: "Hello, welcome!"
 // };
 
 // let engl = localStorage.getItem("engl") || "uz";
-// text.textContent = texts[engl];
+// btn3.btn3Content = btn3s[engl];
 
-// uzText.addEventListener("click", () => {
-//     text.textContent = texts.uz;
+// uzbtn3.addEventListener("click", () => {
+//     btn3.btn3Content = btn3s.uz;
 //     localStorage.setItem("engl", "uz");
 // });
 
-// enText.addEventListener("click", () => {
-//     text.textContent = texts.en;
+// enbtn3.addEventListener("click", () => {
+//     btn3.btn3Content = btn3s.en;
 //     localStorage.setItem("engl", "en");
 // });
 
